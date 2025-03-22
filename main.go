@@ -33,4 +33,6 @@ func main() {
 	fmt.Println(add(10, 12))
 	fmt.Println(split(17))
 	fmt.Println(a, b, c, d)
+
+	dtype()
 }
