@@ -35,4 +35,5 @@ func main() {
 	fmt.Println(a, b, c, d)
 
 	dtype()
+	loop()
 }

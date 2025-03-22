@@ -16,7 +16,12 @@ var (
 )
 
 func dtype() {
+
 	fmt.Printf("Type of %T Value : %v\n", ToBe, ToBe)
 	fmt.Printf("Type of %T Value : %v\n", MaxInt, MaxInt)
 	fmt.Printf("Type of %T Value : %v\n", z, z)
+
+	var x int = 10
+	var y = uint(x)
+	fmt.Println(x, y)
 }
