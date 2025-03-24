@@ -38,4 +38,7 @@ func main() {
 	loop()
 	ref()
 	map_()
+	clo()
 }
+
+//functions are first class citizens in go - anonymous functions and functions as a  parameter

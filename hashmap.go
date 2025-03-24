@@ -14,6 +14,12 @@ func map_() {
 	m := map[string]int{}
 
 	m["Anuj"] = 18
+	// delete(m, "Anuj")
 
-	fmt.Println(m)
+	v, ok := m["Anuj"] //ok is a bool that confirms the existence
+	fmt.Println(v, ok)
+
+	for key, value := range m {
+		fmt.Println(key, value)
+	}
 }
