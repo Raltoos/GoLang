@@ -17,6 +17,7 @@ func pow(x, n, lim float64) float64 {
 
 func loop() {
 	defer fmt.Println("I was ready to be printed")
+	// defer use case - close file so that you don't forget
 
 	sum := 0
 	for i := 0; i < 10; i++ {

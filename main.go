@@ -36,4 +36,5 @@ func main() {
 
 	dtype()
 	loop()
+	ref()
 }
