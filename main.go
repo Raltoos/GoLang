@@ -39,6 +39,7 @@ func main() {
 	ref()
 	map_()
 	clo()
+	con()
 }
 
 //functions are first class citizens in go - anonymous functions and functions as a  parameter
