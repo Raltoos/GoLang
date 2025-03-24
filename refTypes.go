@@ -43,7 +43,28 @@ func temp() {
 	//slice - length, capacity and pointer
 	//dynamic array
 	var b []string = a[0:2]
-	c := []int{1, 2, 3, 4, 5}
+	c := []int{1, 2, 3, 4, 5} //no [len] mentioned
 
-	fmt.Println(b, c)
+	d := []struct {
+		i int
+		b bool
+	}{
+		{2, false},
+		{8, true},
+	}
+
+	//slices from slices
+	e := c[1:3]
+
+	//zero values of ref types is nil
+
+	fmt.Println(b, c, d, e)
+	fmt.Println(cap(e), len(e))
+
+	//make() -> to init ref types
+	//make(type, len, cap)
+
+	for i, v := range e {
+		fmt.Println("index : ", i, " value: ", v)
+	}
 }

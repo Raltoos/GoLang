@@ -37,4 +37,5 @@ func main() {
 	dtype()
 	loop()
 	ref()
+	map_()
 }
